@@ -8,8 +8,8 @@ Static marketing site for GastroTeam (German). Vite + React + TypeScript + Tailw
 ```bash
 npm ci
 npm run dev                                   # http://localhost:5173
-npx tsc -b && npx vite build --base=/GastroTeam.Landing/
-npx vite preview --base=/GastroTeam.Landing/  # check the production build
+npx tsc -b && npx vite build --base=/Gastro.Team.Landing/
+npx vite preview --base=/Gastro.Team.Landing/  # check the production build
 ```
 
 ## Deploy
