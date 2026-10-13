@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://metur100.github.io/GastroTeam.Landing/sitemap.xml
