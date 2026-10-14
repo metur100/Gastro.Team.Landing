@@ -1,5 +1,5 @@
-/** Public URL of the GastroTeam web app (change when a custom domain is used). */
-export const APP_URL = 'https://metur100.github.io/Gastro.Team.App'
+/** Public URL of the GastroTeam web app. */
+export const APP_URL = 'https://gastro-app.gentlegroup.de'
 export const REGISTER_URL = `${APP_URL}/registrieren`
 export const LOGIN_URL = `${APP_URL}/anmelden`
 /** Placeholder contact address – replace before publishing. */
