@@ -12,6 +12,8 @@ export default defineConfig({
         main: resolve(import.meta.dirname, 'index.html'),
         impressum: resolve(import.meta.dirname, 'impressum/index.html'),
         datenschutz: resolve(import.meta.dirname, 'datenschutz/index.html'),
+        kontoLoeschen: resolve(import.meta.dirname, 'konto-loeschen/index.html'),
+        support: resolve(import.meta.dirname, 'support/index.html'),
       },
     },
   },

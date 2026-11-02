@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { AnimatePresence, motion, useMotionValueEvent, useScroll, useTransform } from 'motion/react'
 import { ArrowRight, ArrowUpRight, Menu, X } from 'lucide-react'
-import { CONTACT_EMAIL, DATENSCHUTZ, HOME, IMPRESSUM, LOGIN_URL, REGISTER_URL } from '../config'
+import { DATENSCHUTZ, HOME, IMPRESSUM, KONTO_LOESCHEN, LOGIN_URL, REGISTER_URL, SUPPORT } from '../config'
 import { EASE, WordRise } from '../lib/motion'
 
 export function LogoMark({ className = 'size-8' }: { className?: string }) {
@@ -164,7 +164,7 @@ export function Footer() {
           </div>
           <FooterCol title="Produkt" links={[['Funktionen', `${HOME}#funktionen`], ['Mobile App', `${HOME}#app`], ['Preise', `${HOME}#preise`], ['FAQ', `${HOME}#faq`]]} />
           <FooterCol title="Konto" links={[['Kostenlos testen', REGISTER_URL], ['Anmelden', LOGIN_URL]]} />
-          <FooterCol title="Rechtliches" links={[['Impressum', IMPRESSUM], ['Datenschutz', DATENSCHUTZ], ['Kontakt', `mailto:${CONTACT_EMAIL}`]]} />
+          <FooterCol title="Rechtliches" links={[['Impressum', IMPRESSUM], ['Datenschutz', DATENSCHUTZ], ['Konto löschen', KONTO_LOESCHEN], ['Hilfe & Kontakt', SUPPORT]]} />
         </div>
         <div className="flex flex-col gap-2 py-6 text-xs text-white/40 sm:flex-row sm:justify-between">
           <span>© {year} GastroTeam</span>
